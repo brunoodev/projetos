@@ -1,0 +1,14 @@
+
+<nav class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <%= link_to "Desafio Stefanini", root_path, :class=> "navbar-brand" %>
+    </div>  
+    <form accept-charset="UTF-8" action="/clientes/busca/" method="get" id="frmBusca" role="search" class="navbar-form navbar-right">
+      <div class="form-group">
+        <input type="text" placeholder="Nome do cliente" class="form-control" id="nome" name="nome">
+      </div>
+      <button class="btn btn-default" type="button" onclick="enviaBusca()">Buscar</button>
+   </form>
+  </div>
+</nav>

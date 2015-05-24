@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prova Stefanini</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+      </script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<!--
+    <div class="alert alert-success" role="alert">
+    <a href="#" class="alert-link">Cliente cadastrado com sucesso</a>
+  </div>
+
+  <div class="alert alert-danger" role="alert">
+    <a href="#" class="alert-link">Houve algum erro no cadastro do cliente</a>
+  </div>
+-->
+
+
+<div class="container">
+  <div class="row">
+    <%= render 'layouts/header' %>
+  </div>
+  <div class="row">
+    <div class="col-xs-3">
+      <%= render 'layouts/colunaesquerda' %>
+    </div>
+    <div class="col-xs-9">
+      <div class="jumbotron">
+        <%= yield %>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <%= render 'layouts/footer' %>
+  </div>
+</div>
+<%= javascript_include_tag 'utils.bruno', 'data-turbolinks-track' => true %>
+</body>
+</html>

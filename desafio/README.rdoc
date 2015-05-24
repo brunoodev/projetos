@@ -1,0 +1,13 @@
+== Leia Me
+
+Projeto desenvolvido em Ruby on Rails.
+Objetivo: CRUD + busca rápida de Clientes.
+Dados: Nome, E-mail e Data de Nascimeno.
+
+Observaçoes do projeto:
+
+Mysql, Versao: 5.6.24
+Rails, Versao: 4.2.1
+Ruby, Versao: 2.2.2p95 (2015-04-13 revision 50295) [x86_64-linux]
+
+Foi utilizado o bootstrap sass somente para estilizaçao do projeto.
