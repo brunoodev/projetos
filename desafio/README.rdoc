@@ -11,3 +11,6 @@ Rails, Versao: 4.2.1
 Ruby, Versao: 2.2.2p95 (2015-04-13 revision 50295) [x86_64-linux]
 
 Foi utilizado o bootstrap sass somente para estilizaçao do projeto.
+
+--
+Arquivo Atualizado em 22:18
